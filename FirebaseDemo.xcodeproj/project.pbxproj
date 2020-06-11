@@ -20,7 +20,6 @@
 		8A7F6B36243D9408000D429D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A7F6B35243D9407000D429D /* GoogleService-Info.plist */; };
 		8A889D7A2484F261008534EF /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A889D792484F261008534EF /* ChatModel.swift */; };
 		8A889D7E2484F441008534EF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A889D7D2484F441008534EF /* ChatViewController.swift */; };
-		8A889D8A248510A2008534EF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A889D89248510A2008534EF /* UIView.swift */; };
 		8AC5C194249067A8003EF86B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC5C192249067A7003EF86B /* MessageCell.xib */; };
 		8AC5C195249067A8003EF86B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC5C193249067A7003EF86B /* MessageCell.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		8A7F6B35243D9407000D429D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8A889D792484F261008534EF /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		8A889D7D2484F441008534EF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		8A889D89248510A2008534EF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		8AC5C192249067A7003EF86B /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		8AC5C193249067A7003EF86B /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		8B0FDC68F6BA35EDF50A5845 /* Pods-FirebaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDemo.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseDemo/Pods-FirebaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				8A7F6B2E243D8F13000D429D /* Views */,
 				8A7F6B2D243D8EDF000D429D /* ViewControllers */,
 				8A745008248561EE00694B47 /* Utilities */,
-				8A889D8824851094008534EF /* Extensions */,
 				8A7F6B22243D8E42000D429D /* Assets.xcassets */,
 				8A7F6B24243D8E42000D429D /* LaunchScreen.storyboard */,
 				8A7F6B27243D8E42000D429D /* Info.plist */,
@@ -172,14 +169,6 @@
 			children = (
 			);
 			path = "View Model";
-			sourceTree = "<group>";
-		};
-		8A889D8824851094008534EF /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				8A889D89248510A2008534EF /* UIView.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +291,6 @@
 				8AC5C195249067A8003EF86B /* MessageCell.swift in Sources */,
 				8A7F6B1E243D8E3F000D429D /* WelcomeViewController.swift in Sources */,
 				8A7F6B1A243D8E3F000D429D /* AppDelegate.swift in Sources */,
-				8A889D8A248510A2008534EF /* UIView.swift in Sources */,
 				8A74500A2485620300694B47 /* Utility.swift in Sources */,
 				8A7F6B1C243D8E3F000D429D /* SceneDelegate.swift in Sources */,
 				8A7F6B34243D913B000D429D /* LoginViewController.swift in Sources */,
