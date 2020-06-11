@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7275BA2101026E29475B5A73 /* Pods_FirebaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CCEE6A69E28871F907AA43 /* Pods_FirebaseDemo.framework */; };
-		8A74500A2485620300694B47 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7450092485620300694B47 /* Utility.swift */; };
 		8A7F6B1A243D8E3F000D429D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F6B19243D8E3F000D429D /* AppDelegate.swift */; };
 		8A7F6B1C243D8E3F000D429D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F6B1B243D8E3F000D429D /* SceneDelegate.swift */; };
 		8A7F6B1E243D8E3F000D429D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F6B1D243D8E3F000D429D /* WelcomeViewController.swift */; };
@@ -26,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		18CCEE6A69E28871F907AA43 /* Pods_FirebaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A7450092485620300694B47 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		8A7F6B16243D8E3F000D429D /* FirebaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7F6B19243D8E3F000D429D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A7F6B1B243D8E3F000D429D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,14 +73,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8A745008248561EE00694B47 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				8A7450092485620300694B47 /* Utility.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
 		8A74500B2485676000694B47 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +110,6 @@
 				8A889D782484F215008534EF /* View Model */,
 				8A7F6B2E243D8F13000D429D /* Views */,
 				8A7F6B2D243D8EDF000D429D /* ViewControllers */,
-				8A745008248561EE00694B47 /* Utilities */,
 				8A7F6B22243D8E42000D429D /* Assets.xcassets */,
 				8A7F6B24243D8E42000D429D /* LaunchScreen.storyboard */,
 				8A7F6B27243D8E42000D429D /* Info.plist */,
@@ -291,7 +280,6 @@
 				8AC5C195249067A8003EF86B /* MessageCell.swift in Sources */,
 				8A7F6B1E243D8E3F000D429D /* WelcomeViewController.swift in Sources */,
 				8A7F6B1A243D8E3F000D429D /* AppDelegate.swift in Sources */,
-				8A74500A2485620300694B47 /* Utility.swift in Sources */,
 				8A7F6B1C243D8E3F000D429D /* SceneDelegate.swift in Sources */,
 				8A7F6B34243D913B000D429D /* LoginViewController.swift in Sources */,
 				8A889D7E2484F441008534EF /* ChatViewController.swift in Sources */,
